@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Archit's Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    .timeline-block {
+      position: relative;
+      margin-bottom: 2.5rem;
+      padding-left: 1.5em;
+    }
+    .timeline-block::before {
+      content: "\2794";
+      position: absolute;
+      left: 0;
+      top: 0.2em;
+      font-size: 1em;
+      color: #000;
+    }
+    .timeline-content h3 {
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    .timeline-content .date {
+      font-size: 0.9em;
+      color: gray;
+      margin-bottom: 0.8rem;
+    }
+    .timeline-content ul {
+      padding-left: 1.2rem;
+    }
+    .timeline-content ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Avatar Image Resize */
+    .image.avatar img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: -65px; /* Adjust this value to shift more or less */
+}
+
+  </style>
+</head>
+<body class="is-preload">
+
+  <!-- Header -->
+  <header id="header">
+    <div class="inner">
+      <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+      <h1><strong>Hi, I am Archit Dubey.</strong><br /></h1>
+      <a href="assets/Archit_Dubey.pdf" download class="button" style="margin-top: 1rem; background-color: white; color: black; padding: 0.75em 1.5em; border-radius: 6px; font-weight: bold; font-size: 0.95em; display: inline-block; line-height: 1.2;">DOWNLOAD MY CV</a>
+    </div>
+  </header>
+
+<div id="main">
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Data Science professional with a Master’s (Distinction) from the University of Essex, currently a Business Analyst at Dusaan. Experienced in large-scale data handling, cohort analysis, and dashboarding using Power BI and SQL. Migrated 27 months of data to Azure SQL database, improving retention from 12% to 35%. Led financial reconciliations, marketing campaigns, and built a vendor portal for 350+ vendors.
+
+
+    </p>
+  </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2>My Education</h2>
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <h3>Master’s in Data Science – University of Essex</h3>
+          <div class="date">Jan 2023 – Feb 2024</div>
+          <p><strong>GPA:</strong> 4.0 (First Class Honors)<br />
+          <strong>Coursework:</strong> Machine Learning, Statistical Analysis, Big Data Analytics, Data Visualization, and Data Modelling, Text analysis, Natural Language Processing (NLP).</p>
+        </div>
+      </div>
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <h3>Bachelor of Engineering</h3>
+          <div class="date">May 2015 – May 2019</div>
+          <p><strong>GPA:</strong> 8.5/10<br />
+          <strong>Focus Areas:</strong>  Computer Programming, Environmental Sciences, Water Supply and Wastewater Engineering, Mathematics and Programming Tools.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>My Experience</h2>
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <h3>Business Analyst – Dusaan, New Delhi</h3>
+<div class="date">Nov 2024 – Present</div>
+<ul>
+  <li><strong>Data Management:</strong> Maintained and updated customer datasets of 180,000+ rows monthly from Shopify using SSMS, and tracked customer journeys across 11 departments using Python-powered Sankey diagrams.</li>
+  <li><strong>Data Migration & Analysis:</strong> Migrated on-premises customer data to Azure SQL Database and ran SQL-based cohort analysis on over 27 months of data, increasing customer retention from 12% to more than 35%.</li>
+  <li><strong>Reporting & Visualization:</strong> Built dashboards in Looker Studio and designed 9+ custom GA4 exploration reports (e.g., Product View Analysis, Demographic City Details), tracking monthly orders and delivery metrics across 450 vendors.</li>
+  <li><strong>Financial Reconciliation:</strong> Prepared monthly COD and Prepaid reconciliation reports with the Finance team, covering 3,500+ orders across 8 months.</li>
+  <li><strong>Retention Campaigns:</strong> Executed campaigns via WhatsApp, SMS, and Email, boosting engagement among 71,000+ acquired customers.</li>
+  <li><strong>Vendor Support Platform:</strong> Created a WordPress-based ticketing system supporting 4 departments for more than 650 vendors across India.</li>
+</ul>
+
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <h3>Data Analyst – Accenture, Remote</h3>
+<div class="date">Sept 2024 – Oct 2024</div>
+<ul>
+  <li><strong>Client Simulation Project:</strong> Completed a simulation focused on advising a social media client as a Data Analyst.</li>
+  <li><strong>Data Analysis:</strong> Cleaned, modelled, and analyzed 7 datasets to uncover insights into content trends and support strategic decision-making.</li>
+  <li><strong>Presentation & Communication:</strong> Delivered insights through a PowerPoint deck and video presentation tailored for both client and internal stakeholders.</li>
+</ul>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+<ul>
+  <li><strong>Python:</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Functions, Object-Oriented Programming (OOP)</li>
+  <li><strong>Advanced Excel:</strong> VLOOKUP, Index-Match, XLOOKUP, Pivot Table, Pivot Chart, Power Query</li>
+  <li><strong>SQL:</strong> Data Manipulation, Subqueries, Joins, CTE, Window Function, Performance Optimization</li>
+  <li><strong>Power BI:</strong> Data Reporting, DAX, Data Modelling, Data Cleaning, Data Transformation</li>
+  <li><strong>Other:</strong> Amazon Web Services, Google Cloud Platform, GitHub, Statistics, Git, Data Warehousing, Big Data</li>
+</ul>
+
+    </section>
+
+    <!-- Recent Work -->
+    <section id="two">
+  <h2>Projects</h2>
+  <div class="row">
+
+    <article class="col-4 col-12-xsmall work-item">
+      <a href="https://github.com/DUBEYarchit/Hotel-Data-analytics" target="_blank">
+        <img src="images/thumbs/01.jpg" alt="" class="image fit" />
+      </a>
+      <h3>Hotel Data Analytics | Python</h3>
+    </article>
+
+    <article class="col-4 col-12-xsmall work-item">
+      <a href="https://github.com/DUBEYarchit/Sepsis-Prediction-Classification" target="_blank">
+        <img src="images/thumbs/02.jpg" alt="" class="image fit" />
+      </a>
+      <h3>Sepsis Prediction with Machine Learning | Python</h3>
+    </article>
+
+    <article class="col-4 col-12-xsmall work-item">
+      <a href="https://github.com/DUBEYarchit/Shipment-Price-Prediction-Regression" target="_blank">
+        <img src="images/thumbs/03.jpg" alt="" class="image fit" />
+      </a>
+      <h3>Shipment Price Prediction | Python | AWS</h3>
+    </article>
+
+    <article class="col-4 col-12-xsmall work-item">
+      <a href="https://github.com/DUBEYarchit/Sentiment-Analysis-Amazon-Reviews" target="_blank">
+        <img src="images/thumbs/04.jpg" alt="" class="image fit" />
+      </a>
+      <h3>Sentiment Analytics | Python</h3>
+      <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+    </article>
+
+    <article class="col-4 col-12-xsmall work-item">
+      <a href="https://github.com/DUBEYarchit/Suppy_Chain_PowerBI" target="_blank">
+        <img src="images/thumbs/05.jpg" alt="" class="image fit" />
+      </a>
+      <h3>Supply chain Analytics | Power BI </h3>
+    </article>
+
+    <article class="col-4 col-12-xsmall work-item">
+      <a href="https://github.com/DUBEYarchit/Marketing-Analytics-Business-case" target="_blank">
+        <img src="images/thumbs/06.jpg" alt="" class="image fit" />
+      </a>
+      <h3>Marketing Business Case | SQL | Power BI</h3>
+    </article>
+
+  </div>
+</section>
+
+
+
+  
+
+    <!-- Achievements and Certifications -->
+    <section id="achievements">
+      <h2>Achievements and Certifications</h2>
+      <ul>
+        <li>Amazon Web Service(AWS) certified cloud practitioner</li>
+        <li>Chancellor's scholarship awardee</li>
+        <li>Python for Machine Learning & Data Science Masterclass</li>
+        <li>SQL Beginner to Advanced for Data Professional</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+  <div class="inner">
+    <h2 style="margin-bottom: 1rem;">Get In Touch</h2>
+    <ul class="icons">
+      <li><a href="https://x.com/ArchitDubey0435" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="https://github.com/DUBEYarchit" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+<li><a href="https://www.linkedin.com/in/ad0235/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+      <li><a href="mailto:arc10dubey@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+    </ul>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.poptrox.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
