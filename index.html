@@ -37,15 +37,13 @@
       margin-bottom: 0.5rem;
     }
 
-    /* Avatar Image Resize */
     .image.avatar img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-left: -65px; /* Adjust this value to shift more or less */
-}
-
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-left: -65px;
+    }
   </style>
 </head>
 <body class="is-preload">
@@ -59,17 +57,34 @@
     </div>
   </header>
 
-<div id="main">
+  <div id="main">
 
-  <!-- About Me -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Data Science professional with a Master’s (Distinction) from the University of Essex, currently a Business Analyst at Dusaan. Experienced in large-scale data handling, cohort analysis, and dashboarding using Power BI and SQL. Migrated 27 months of data to Azure SQL database, improving retention from 12% to 35%. Led financial reconciliations, marketing campaigns, and built a vendor portal for 350+ vendors.
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Data Science professional with a Master’s (Distinction) from the University of Essex, currently a Business Analyst at Dusaan. Experienced in large-scale data handling, cohort analysis, and dashboarding using Power BI and SQL. Migrated 27 months of data to Azure SQL database, improving retention from 12% to 35%. Led financial reconciliations, marketing campaigns, and built a vendor portal for over 450 vendors.
+      </p>
+    </section>
 
-
-    </p>
-  </section>
+    <!-- Experience -->
+    <section id="experience">
+      <h2>My Experience</h2>
+      <div class="timeline-block">
+        <div class="timeline-content">
+          <h3>Business Analyst – Dusaan, New Delhi</h3>
+          <div class="date">Nov 2024 – Present</div>
+          <ul>
+            <li><strong>Data Management:</strong> Maintained and updated the customer dataset with over 1.8 lakh rows from Shopify each month using SQL Server Management Studio (SSMS), and used Python to track customer flow across 11 departments through Sankey diagram plots.</li>
+            <li><strong>Data Migration & Analysis:</strong> Migrated on-premises customer data to Azure SQL Database and performed cohort analysis on 27 months of records, boosting customer retention from 12% to over 35% and increasing ROAS from 2.1 to 4.6 through targeted remarketing.</li>
+            <li><strong>Vendor Support Platform:</strong> Developed a WordPress-based ticket generation system integrated with Google Sheets, enabling vendors to log queries across 4 departments. Automated email notifications using Google Apps Script to generate unique ticket IDs and route queries to respective teams, improving query resolution efficiency and maintaining accurate records for over 450 vendors across India.</li>
+            <li><strong>Financial Reconciliation:</strong> Prepared 2 different reconciliation files for COD and Prepaid orders in collaboration with the Finance team for over 10 months of data, covering more than 3,500 orders each month.</li>
+            <li><strong>Retention Campaigns:</strong> Worked in the Retention Marketing team to run ad campaigns across 3 channels (WhatsApp, SMS, Email) to boost customer retention among over 71,000 acquired customers.</li>
+            <li><strong>Reporting & Visualization:</strong> Developed and optimized live dashboards in Looker Studio and leveraged Google Analytics 4 (GA4) to design more than 9 custom exploration reports (e.g., Product View Analysis, Demographic City Details), tracking performance across 6 key states to generate insights for nationwide operational expansion.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <!-- Education -->
     <section id="education">
@@ -87,40 +102,7 @@
           <h3>Bachelor of Engineering</h3>
           <div class="date">May 2015 – May 2019</div>
           <p><strong>GPA:</strong> 8.5/10<br />
-          <strong>Focus Areas:</strong>  Computer Programming, Environmental Sciences, Water Supply and Wastewater Engineering, Mathematics and Programming Tools.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience -->
-    <section id="experience">
-      <h2>My Experience</h2>
-      <div class="timeline-block">
-        <div class="timeline-content">
-          <h3>Business Analyst – Dusaan, New Delhi</h3>
-<div class="date">Nov 2024 – Present</div>
-<ul>
-  <li><strong>Data Management:</strong> Maintained and updated customer datasets of 180,000+ rows monthly from Shopify using SSMS, and tracked customer journeys across 11 departments using Python-powered Sankey diagrams.</li>
-  <li><strong>Data Migration & Analysis:</strong> Migrated on-premises customer data to Azure SQL Database and ran SQL-based cohort analysis on over 27 months of data, increasing customer retention from 12% to more than 35%.</li>
-  <li><strong>Reporting & Visualization:</strong> Built dashboards in Looker Studio and designed 9+ custom GA4 exploration reports (e.g., Product View Analysis, Demographic City Details), tracking monthly orders and delivery metrics across 450 vendors.</li>
-  <li><strong>Financial Reconciliation:</strong> Prepared monthly COD and Prepaid reconciliation reports with the Finance team, covering 3,500+ orders across 8 months.</li>
-  <li><strong>Retention Campaigns:</strong> Executed campaigns via WhatsApp, SMS, and Email, boosting engagement among 71,000+ acquired customers.</li>
-  <li><strong>Vendor Support Platform:</strong> Created a WordPress-based ticketing system supporting 4 departments for more than 650 vendors across India.</li>
-</ul>
-
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-block">
-        <div class="timeline-content">
-          <h3>Data Analyst – Accenture, Remote</h3>
-<div class="date">Sept 2024 – Oct 2024</div>
-<ul>
-  <li><strong>Client Simulation Project:</strong> Completed a simulation focused on advising a social media client as a Data Analyst.</li>
-  <li><strong>Data Analysis:</strong> Cleaned, modelled, and analyzed 7 datasets to uncover insights into content trends and support strategic decision-making.</li>
-  <li><strong>Presentation & Communication:</strong> Delivered insights through a PowerPoint deck and video presentation tailored for both client and internal stakeholders.</li>
-</ul>
-
+          <strong>Focus Areas:</strong> Computer Programming, Environmental Sciences, Water Supply and Wastewater Engineering, Mathematics and Programming Tools.</p>
         </div>
       </div>
     </section>
@@ -128,72 +110,47 @@
     <!-- Skills -->
     <section id="skills">
       <h2>Skills</h2>
-<ul>
-  <li><strong>Python:</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Functions, Object-Oriented Programming (OOP)</li>
-  <li><strong>Advanced Excel:</strong> VLOOKUP, Index-Match, XLOOKUP, Pivot Table, Pivot Chart, Power Query</li>
-  <li><strong>SQL:</strong> Data Manipulation, Subqueries, Joins, CTE, Window Function, Performance Optimization</li>
-  <li><strong>Power BI:</strong> Data Reporting, DAX, Data Modelling, Data Cleaning, Data Transformation</li>
-  <li><strong>Other:</strong> Amazon Web Services, Google Cloud Platform, GitHub, Statistics, Git, Data Warehousing, Big Data</li>
-</ul>
-
+      <ul>
+        <li><strong>Python:</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Functions, Object-Oriented Programming (OOP)</li>
+        <li><strong>Advanced Excel:</strong> VLOOKUP, Index-Match, XLOOKUP, Pivot Table, Pivot Chart, Power Query</li>
+        <li><strong>SQL:</strong> Data Manipulation, Subqueries, Joins, CTE, Window Function, Performance Optimization</li>
+        <li><strong>Power BI:</strong> Data Reporting, DAX, Data Modelling, Data Cleaning, Data Transformation</li>
+        <li><strong>Other:</strong> Amazon Web Services, Google Cloud Platform, GitHub, Statistics, Git, Data Warehousing, Big Data</li>
+      </ul>
     </section>
 
-    <!-- Recent Work -->
+    <!-- Projects -->
     <section id="two">
-  <h2>Projects</h2>
-  <div class="row">
+      <h2>Projects</h2>
+      <div class="row">
+        <article class="col-4 col-12-xsmall work-item">
+          <a href="https://github.com/DUBEYarchit/Hotel-Data-analytics" target="_blank"><img src="images/thumbs/01.jpg" alt="" class="image fit" /></a>
+          <h3>Hotel Data Analytics | Python</h3>
+        </article>
+        <article class="col-4 col-12-xsmall work-item">
+          <a href="https://github.com/DUBEYarchit/Sepsis-Prediction-Classification" target="_blank"><img src="images/thumbs/02.jpg" alt="" class="image fit" /></a>
+          <h3>Sepsis Prediction with Machine Learning | Python</h3>
+        </article>
+        <article class="col-4 col-12-xsmall work-item">
+          <a href="https://github.com/DUBEYarchit/Shipment-Price-Prediction-Regression" target="_blank"><img src="images/thumbs/03.jpg" alt="" class="image fit" /></a>
+          <h3>Shipment Price Prediction | Python | AWS</h3>
+        </article>
+        <article class="col-4 col-12-xsmall work-item">
+          <a href="https://github.com/DUBEYarchit/Sentiment-Analysis-Amazon-Reviews" target="_blank"><img src="images/thumbs/04.jpg" alt="" class="image fit" /></a>
+          <h3>Sentiment Analytics | Python</h3>
+        </article>
+        <article class="col-4 col-12-xsmall work-item">
+          <a href="https://github.com/DUBEYarchit/Suppy_Chain_PowerBI" target="_blank"><img src="images/thumbs/05.jpg" alt="" class="image fit" /></a>
+          <h3>Supply chain Analytics | Power BI</h3>
+        </article>
+        <article class="col-4 col-12-xsmall work-item">
+          <a href="https://github.com/DUBEYarchit/Marketing-Analytics-Business-case" target="_blank"><img src="images/thumbs/06.jpg" alt="" class="image fit" /></a>
+          <h3>Marketing Business Case | SQL | Power BI</h3>
+        </article>
+      </div>
+    </section>
 
-    <article class="col-4 col-12-xsmall work-item">
-      <a href="https://github.com/DUBEYarchit/Hotel-Data-analytics" target="_blank">
-        <img src="images/thumbs/01.jpg" alt="" class="image fit" />
-      </a>
-      <h3>Hotel Data Analytics | Python</h3>
-    </article>
-
-    <article class="col-4 col-12-xsmall work-item">
-      <a href="https://github.com/DUBEYarchit/Sepsis-Prediction-Classification" target="_blank">
-        <img src="images/thumbs/02.jpg" alt="" class="image fit" />
-      </a>
-      <h3>Sepsis Prediction with Machine Learning | Python</h3>
-    </article>
-
-    <article class="col-4 col-12-xsmall work-item">
-      <a href="https://github.com/DUBEYarchit/Shipment-Price-Prediction-Regression" target="_blank">
-        <img src="images/thumbs/03.jpg" alt="" class="image fit" />
-      </a>
-      <h3>Shipment Price Prediction | Python | AWS</h3>
-    </article>
-
-    <article class="col-4 col-12-xsmall work-item">
-      <a href="https://github.com/DUBEYarchit/Sentiment-Analysis-Amazon-Reviews" target="_blank">
-        <img src="images/thumbs/04.jpg" alt="" class="image fit" />
-      </a>
-      <h3>Sentiment Analytics | Python</h3>
-      <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-    </article>
-
-    <article class="col-4 col-12-xsmall work-item">
-      <a href="https://github.com/DUBEYarchit/Suppy_Chain_PowerBI" target="_blank">
-        <img src="images/thumbs/05.jpg" alt="" class="image fit" />
-      </a>
-      <h3>Supply chain Analytics | Power BI </h3>
-    </article>
-
-    <article class="col-4 col-12-xsmall work-item">
-      <a href="https://github.com/DUBEYarchit/Marketing-Analytics-Business-case" target="_blank">
-        <img src="images/thumbs/06.jpg" alt="" class="image fit" />
-      </a>
-      <h3>Marketing Business Case | SQL | Power BI</h3>
-    </article>
-
-  </div>
-</section>
-
-
-
-  
-
-    <!-- Achievements and Certifications -->
+    <!-- Achievements -->
     <section id="achievements">
       <h2>Achievements and Certifications</h2>
       <ul>
@@ -208,17 +165,16 @@
 
   <!-- Footer -->
   <footer id="footer">
-  <div class="inner">
-    <h2 style="margin-bottom: 1rem;">Get In Touch</h2>
-    <ul class="icons">
-      <li><a href="https://x.com/ArchitDubey0435" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-      <li><a href="https://github.com/DUBEYarchit" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-<li><a href="https://www.linkedin.com/in/ad0235/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-      <li><a href="mailto:arc10dubey@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-    </ul>
-  </div>
-</footer>
-
+    <div class="inner">
+      <h2 style="margin-bottom: 1rem;">Get In Touch</h2>
+      <ul class="icons">
+        <li><a href="https://x.com/ArchitDubey0435" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://github.com/DUBEYarchit" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+        <li><a href="https://www.linkedin.com/in/ad0235/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="mailto:arc10dubey@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+      </ul>
+    </div>
+  </footer>
 
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js"></script>
